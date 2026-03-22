@@ -1,0 +1,15 @@
+// in java script and Python array is dynamic
+// other than java script we have to use array index to access the value or display it
+//but in js we display values seperated by comma, i.e display it in string format
+
+let num1 = [];
+let num2 = [100,200,300,400,500];
+let num3 = new Array();
+let num4 = new Array(10,20,30,40,50)
+
+console.log(num1)
+console.log(num1.length)
+console.log(num2) // display data in string format separated by ,
+console.log(num2.join(" "))
+console.log(num2[0])
+console.log(num2[1])
