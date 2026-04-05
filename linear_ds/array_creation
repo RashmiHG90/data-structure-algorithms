@@ -7,9 +7,23 @@ let num2 = [100,200,300,400,500];
 let num3 = new Array();
 let num4 = new Array(10,20,30,40,50)
 
+let emp1 = {name: "Ravi", age: 21, role: "Developer"};
+let emp2 = {name: "sagar", age: 22, role: "Tester"};
+
+let emp3 = ["John", 21, "Developer"];
+let emp4 = ["James", 22, "Tester"];
+
 console.log(num1)
 console.log(num1.length)
 console.log(num2) // display data in string format separated by ,
 console.log(num2.join(" "))
+console.log(num2.join("/"))
 console.log(num2[0])
 console.log(num2[1])
+console.log(emp1);
+console.log(emp2);
+console.log(emp3);
+console.log(emp4);
+console.log(emp3.join(" "));
+//console.log(emp1.join(" ")); throws error because emp1 is an object 
+// and join method is not defined for objects
