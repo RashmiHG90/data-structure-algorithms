@@ -17,8 +17,11 @@ console.log("After case-insensitive sorting: " + names2);
 let name3 = "Steve";
 let name4 = "Steve";
 let name7 = "steve";
+let name8 = "Akash";
 console.log(name3.localeCompare(name7)); // Output: -1 (since "S" has a lower ASCII value than "s")
 console.log(name3.localeCompare(name4)); // Output: 0 (since both strings are identical)
+console.log(name8.localeCompare(name3)); // Output: -1 (since "A" has a lower ASCII value than "S")
+console.log(name3.localeCompare(name8)); // Output: 1 (since "S" has a higher ASCII value than "A")
 
 let name5 = "apple";
 let name6 = "banana";
